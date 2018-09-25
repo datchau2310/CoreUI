@@ -59,9 +59,11 @@ body {
   line-height: 1.5;
   color: #23282c;
   text-align: left;
-  background: url('../img/bg/login.jpg');
+  background-color: #e4e5e6;
 }
-
+.bg-login{
+   background: url('../img/bg/login.jpg');
+}
 [tabindex="-1"]:focus {
   outline: 0!important;
 }
