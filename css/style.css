@@ -1645,6 +1645,7 @@ pre code {
 
 .table thead th {
   vertical-align: bottom;
+  padding-top: 1rem;
   border-bottom: 2px solid #c8ced3;
 }
 
@@ -4372,8 +4373,8 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 .card-header {
   padding: .75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #f0f3f5;
-  border-bottom: 1px solid #c8ced3;
+  /*background-color: #f0f3f5;*/
+  /*border-bottom: 1px solid #c8ced3;*/
 }
 
 .card-header:first-child {
