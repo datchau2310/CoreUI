@@ -59,7 +59,7 @@ body {
   line-height: 1.5;
   color: #23282c;
   text-align: left;
-  background-color: #e4e5e6;
+  background: url('../img/bg/login.jpg');
 }
 
 [tabindex="-1"]:focus {
@@ -1922,7 +1922,7 @@ pre code {
   background-color: #fff;
   border-color: #8ad4ee;
   outline: 0;
-  box-shadow: 0 0 0 .2rem rgba(32,168,216,.25);
+  /*box-shadow: 0 0 0 .2rem rgba(32,168,216,.25);*/
 }
 
 .form-control::-webkit-input-placeholder {
