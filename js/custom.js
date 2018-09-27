@@ -162,4 +162,5 @@ $(document).ready(function() {
 	.bind("loaded.jstree", function (e, data) {
 		$(this).jstree("open_all");
 	});
+
 });
