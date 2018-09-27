@@ -1,5 +1,6 @@
 @charset "UTF-8";
 :root {
+  --blue-dark:#1d2a80;
   --blue: #20a8d8;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -2382,6 +2383,20 @@ textarea.form-control {
 
 a.btn.disabled,fieldset:disabled a.btn {
   pointer-events: none;
+}
+
+.btn-blue-dark{
+  color: #fff;
+  background-color: #1d2a80;
+  border-color: #1d2a80;
+}
+.btn-blue-dark:hover {
+  color: #fff;
+  background-color: #5363bd;
+  border-color: #5363bd;
+}
+.btn-blue-dark:focus,.btn-blue-dark.focus {
+  box-shadow:none;
 }
 
 .btn-primary {
